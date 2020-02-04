@@ -55,12 +55,17 @@ main {
 	margin: 15px 0 5px;
 }
 @media screen and (max-width: 768px) {
-	main {
-		width: 90%;
-		padding: 50px auto;
+	main{
+		width: 100%;
 	}
 	.step-box {
-		margin-top: 20px;
 		float: none;
+		margin:8px auto;
+		width: 90%;
 	}
+	.step-box:last-child{
+	float: none;
+	margin:8px auto;
+	width: 90%;
+}
 }
