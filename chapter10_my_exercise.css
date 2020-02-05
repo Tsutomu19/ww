@@ -60,12 +60,12 @@ main {
 	}
 	.step-box {
 		float: none;
-		margin:8px auto;
+		margin:18px auto;
 		width: 90%;
 	}
 	.step-box:last-child{
 	float: none;
-	margin:8px auto;
+	margin:18px auto;
 	width: 90%;
 }
 }
